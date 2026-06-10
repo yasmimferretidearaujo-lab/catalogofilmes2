@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Filmes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎬 Catálogo de Filmes</h1>
+        
+        <div class="search-section">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Buscar filmes por título...">
+                <button onclick="searchMovies()">Buscar</button>
+            </div>
+            <div class="filter-buttons" id="filterButtons">
+                <button class="filter-btn active" onclick="filterByGenre('todos')">Todos</button>
+                <button class="filter-btn" onclick="filterByGenre('Ação')">Ação</button>
+                <button class="filter-btn" onclick="filterByGenre('Comédia')">Comédia</button>
+                <button class="filter-btn" onclick="filterByGenre('Drama')">Drama</button>
+                <button class="filter-btn" onclick="filterByGenre('Ficção')">Ficção</button>
+                <button class="filter-btn" onclick="filterByGenre('Terror')">Terror</button>
+            </div>
+        </div>
+
+        <div class="movies-grid" id="moviesGrid"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
