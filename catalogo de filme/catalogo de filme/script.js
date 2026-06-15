@@ -6,7 +6,7 @@ const movies = [
         year: 1972,
         genre: "Drama",
         rating: "★★★★★",
-        poster:  "posters/God father.jpg" 
+        poster: "https://via.placeholder.com/300x400/333/fff?text=O+Poderoso+Chefão"
     },
     {
         id: 2,
@@ -14,7 +14,7 @@ const movies = [
         year: 2010,
         genre: "Ficção",
         rating: "★★★★★",
-        poster: "posters/aorigem.jpg"
+        poster: "C:\Users\LIMEIRA-PAULOCHAVESP\Desktop\posters\download.jpg"
     },
     {
         id: 3,
@@ -22,7 +22,7 @@ const movies = [
         year: 1999,
         genre: "Ficção",
         rating: "★★★★½",
-        poster: "posters/matrix.jpg"
+        poster: "https://via.placeholder.com/300x400/333/fff?text=Matrix"
     },
     {
         id: 4,
@@ -30,7 +30,7 @@ const movies = [
         year: 2019,
         genre: "Ação",
         rating: "★★★★½",
-        poster: "posters/vingadoreslti.jpg"
+        poster: "https://via.placeholder.com/300x400/333/fff?text=Vingadores"
     },
     {
         id: 5,
@@ -38,7 +38,7 @@ const movies = [
         year: 2004,
         genre: "Comédia",
         rating: "★★★★☆",
-        poster: "posters/branquelas.jpeg"
+        poster: "https://via.placeholder.com/300x400/333/fff?text=As+Branquelas"
     },
     {
         id: 6,
@@ -46,7 +46,7 @@ const movies = [
         year: 2013,
         genre: "Terror",
         rating: "★★★★☆",
-        poster: "posters/invocacaodomal.jpg"
+        poster: "https://via.placeholder.com/300x400/333/fff?text=Invocação+do+Mal"
     },
     {
         id: 7,
@@ -54,7 +54,7 @@ const movies = [
         year: 1999,
         genre: "Drama",
         rating: "★★★★★",
-        poster: "posters/clubedaluta.jpg"
+        poster: "https://via.placeholder.com/300x400/333/fff?text=Clube+da+Luta"
     },
     {
         id: 8,
@@ -62,7 +62,7 @@ const movies = [
         year: 2016,
         genre: "Comédia",
         rating: "★★★★½",
-        poster: "posters/Deadpool_(2016_poster).png"
+        poster: "https://via.placeholder.com/300x400/333/fff?text=Deadpool"
     },
     {
         id: 9,
@@ -70,7 +70,7 @@ const movies = [
         year: 2014,
         genre: "Ficção",
         rating: "★★★★★",
-        poster: "posters/intersstelar.jpg"
+        poster: "https://via.placeholder.com/300x400/333/fff?text=Interestelar"
     },
     {
         id: 10,
@@ -78,7 +78,7 @@ const movies = [
         year: 2014,
         genre: "Ação",
         rating: "★★★★½",
-        poster: "posters/jhonwick.jpg"
+        poster: "https://via.placeholder.com/300x400/333/fff?text=John+Wick"
     }
 ];
 
